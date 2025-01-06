@@ -8,7 +8,7 @@ ready to be copy/pasted around.
 ## Basics
 * Test files are named _xxx_test.go_, eg.: hello_test.go
 * Test cases are prefixed with _Test_, eg.: TestHello(t *testing.T) 
-* Run tests by typing: `go test`. (Single test: CTRL+SHIFT+F10)
+* Run tests by typing: `go test ./... -v`. (Single test: CTRL+SHIFT+F10)
 * Offline docs: `go doc fmt` or download pkgsite:
 ```
 go install golang.org/x/pkgsite/cmd/pkgsite@latest
