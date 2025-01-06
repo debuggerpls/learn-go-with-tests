@@ -51,6 +51,6 @@ try and figure it out yourself.
 * **Find usages of a symbol.** Understanding a function's
 context can help you make decisions when refactoring.
 
-* **Jump to terminal**.
+* **Jump to terminal**. ALT+F12
 
 Mastering your tools will help you concentrate on the code and reduce context switching.

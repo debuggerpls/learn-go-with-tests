@@ -2,11 +2,13 @@ package main
 
 import "fmt"
 
+const englishHelloPrefix = "Hello, "
+
 // Separate your "domain" code from the outside world.
-func Hello() string {
-	return "Hello, world"
+func Hello(name string) string {
+	return englishHelloPrefix + name
 }
 
 func main() {
-	fmt.Println(Hello())
+	fmt.Println(Hello("world"))
 }
