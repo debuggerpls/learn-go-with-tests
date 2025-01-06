@@ -53,4 +53,6 @@ context can help you make decisions when refactoring.
 
 * **Jump to terminal**. ALT+F12
 
+* **Comment block**. (custom CTRL+SHIFT+L)
+
 Mastering your tools will help you concentrate on the code and reduce context switching.
