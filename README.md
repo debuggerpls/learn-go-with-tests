@@ -19,6 +19,12 @@ go install golang.org/x/pkgsite/cmd/pkgsite@latest
 pkgsite -open .
 ```
 
+## Formatting
+* `%q` - formats as string
+* `%v` - formats as value
+* `%#v` - formats for structs with field values
+* `%g` - formats for precise decimal numbers
+
 ## Refactoring and your tooling
 
 Big emphasis is the importance of refactoring and
