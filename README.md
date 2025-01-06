@@ -10,6 +10,8 @@ ready to be copy/pasted around.
 * Test cases are prefixed with _Test_, eg.: TestHello(t *testing.T) 
 * Run tests by typing: `go test ./... -v`. (Single test: CTRL+SHIFT+F10)
 * Testable examples are prefixed with _Example_, eg. ExampleAdd()
+* Benchmarks are prefixed with _Benchmark_, eg.: BenchmarkRepeat(t *testing.B)
+* Notes for benchmarks: https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go
 * Offline docs: `go doc fmt` or download pkgsite:
 ```
 go install golang.org/x/pkgsite/cmd/pkgsite@latest
