@@ -12,6 +12,7 @@ ready to be copy/pasted around.
 * Testable examples are prefixed with _Example_, eg. ExampleAdd()
 * Benchmarks are prefixed with _Benchmark_, eg.: BenchmarkRepeat(t *testing.B)
 * Notes for benchmarks: https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go
+* Code coverage: `go test -cover -v ./...`
 * Offline docs: `go doc fmt` or download pkgsite:
 ```
 go install golang.org/x/pkgsite/cmd/pkgsite@latest
