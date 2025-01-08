@@ -13,6 +13,7 @@ ready to be copy/pasted around.
 * Benchmarks are prefixed with _Benchmark_, eg.: BenchmarkRepeat(t *testing.B)
 * Notes for benchmarks: https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go
 * Code coverage: `go test -cover -v ./...`
+* Checking for race-conditions: `go test -race`
 * Offline docs: `go doc fmt` or download pkgsite:
 ```
 go install golang.org/x/pkgsite/cmd/pkgsite@latest
